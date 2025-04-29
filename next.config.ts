@@ -1,9 +1,9 @@
-import type { NextConfig } from 'next';
+import { NextConfig } from "next";
+import createNextIntlPlugin from "next-intl/plugin";
 
 const nextConfig: NextConfig = {
-  experimental: {
-    ppr: true
-  }
+  /* config options here */
 };
 
-export default nextConfig;
+const withNextIntl = createNextIntlPlugin("./src/components/i18n/request.ts");
+export default withNextIntl(nextConfig);
