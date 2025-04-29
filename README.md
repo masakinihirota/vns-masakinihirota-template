@@ -1,9 +1,28 @@
+# テンプレート構成
+
+Next.js 15
+
+Supabase
+
+Supabase UI
 
 Supabase UI Next.js Example
 Social Authentication
 https://supabase.com/ui/docs/nextjs/social-auth
 
+Google認証
+GitHub認証
+匿名認証
 
+Drizzle ORM
+
+i18n next-intl
+
+Shadcn/UI Dark mode
+
+husky
+
+Biome
 
 ここより下はオリジナル
 
