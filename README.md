@@ -1,33 +1,4 @@
-import Contact01Page from "@/components/shadcnui-blocks/contact-01/contact-01";
-import FAQ03 from "@/components/shadcnui-blocks/faq-03";
-import Features01Page from "@/components/shadcnui-blocks/features-01";
-import Footer05Page from "@/components/shadcnui-blocks/footer-05";
-import Hero01 from "@/components/shadcnui-blocks/hero-01";
-
-import Logos02Page from "@/components/shadcnui-blocks/logos-02/logos-02";
-import Stats01Page from "@/components/shadcnui-blocks/stats-01/stats-01";
-import Testimonial05 from "@/components/shadcnui-blocks/testimonial-05";
-import Timeline from "@/components/shadcnui-blocks/timeline-03";
-
-   {/* <div className="border-2 border-dashed border-green-500 my-4">
-        <Hero01 />
-      </div>
-      <Features01Page />
-
-      <Timeline />
-      <Testimonial05 />
-      <FAQ03 /> */}
-      {/* <Team03Page /> */}
-      {/* <Logos02Page />
-      <Contact01Page />
-      <Stats01Page />
-
-      <Footer05Page /> */}
-
-
-
-
-
+# Supabase UI Library
 
 Supabase UI Next.js Example
 Social Authentication
@@ -35,7 +6,7 @@ https://supabase.com/ui/docs/nextjs/social-auth
 
 
 
-ここより下はオリジナル
+ここより下はNext.jsのオリジナルREADME.md
 
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
