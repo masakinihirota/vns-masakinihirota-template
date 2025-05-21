@@ -11,6 +11,10 @@ export default function Home() {
 
   return (
     <>
+      {/* ランディングページへのリンク */}
+      <Link href="/landing">ランディングページ</Link>
+      <br />
+      {/* メインページへのリンク */}
       <Link href="/main-pages">メインページへのリンク</Link>
       <br />
       {/* 価格のページ */}
@@ -33,13 +37,16 @@ export default function Home() {
           {/* ToggleButton */}
           <ModeToggle />
           <p>認証 ログインページへ</p>
-          <Link href="/auth-page/login">ログインページへ</Link>
+          <Link href="/login">ログインページへ</Link>
           <div />
           {/* ログアウト */}
-          <Link href="/auth-page/logout">ログアウトページへ</Link>
+          <Link href="/logout">ログアウトページへ</Link>
           <div />
           {/* 言語ページ */}
           <Link href="/lang">言語ページ</Link>
+          <div />
+          {/* プロテクトページへ */}
+          <Link href="/protected">プロテクトページへ</Link>
         </div>
         {/* Hono */}
         <Link href="/hono">Honoページへ </Link>
